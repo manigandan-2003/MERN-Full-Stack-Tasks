@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2</title>
+    <style>
+        #ul1{
+            border: 1px solid black;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            width: 200px;
+            background-color: aquamarine;
+        }
+        li .h{
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: blue;
+        }
+        li .h:hover{
+            background-color: orange;
+            color: white;
+        }
+        #div1{
+            display: inline-block;
+            width: 50%; 
+        }
+        #div2{
+            display: inline-block;
+        }
+        #ul2{
+            border: 1px solid black;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            list-style-type: none;
+            background-color: gainsboro;
+        }
+        .li2{
+            float: left;
+        }
+        li .v{
+            display: block;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+            color: blue;
+        }
+        li .v:hover{
+            background-color: gray;
+            color: white;
+        }
+        #maindiv{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div id="maindiv">
+        <div id="div1">
+            <h1>Vertical Navigation Bar</h1>
+            <ul id="ul1">
+                <li><a class="h" href="">Home</a></li>
+                <li><a class="h" href="">Java</a></li>
+                <li><a class="h" href="">CSS</a></li>
+                <li><a class="h" href="">HTML</a></li>
+                <li><a class="h" href="">Bootstrap</a></li>
+            </ul>
+        </div>
+        <div id="div2">
+            <h1>Horizondal Navigation Bar</h1>
+            <ul id="ul2">
+                <li class="li2"><a class="v" href="">Home</a></li>
+                <li class="li2"><a class="v" href="">Java</a></li>
+                <li class="li2"><a class="v" href="">CSS</a></li>
+                <li class="li2"><a class="v" href="">HTML</a></li>
+                <li class="li2"><a class="v" href="">Bootstrap</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
